@@ -1,0 +1,27 @@
+<!--bulb turn on turn off project-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function turnon()
+        {
+            document.getElementById("bulb").src="https://i.postimg.cc/6QyTynzr/bulb-on.png"
+        }
+        function turnoff()
+        {
+            document.getElementById("bulb").src="https://i.postimg.cc/KjK1wL3c/bulb-off.png"
+        }
+        </script>
+</head>
+<body>
+    <h1>JavaScript Can Change HTML Attribute Values</h1>
+    <p>In this example JavaScript changes the value of the src (source) attribute of an img tag:</p>
+    <button  onclick="turnon()">Turn On Light</button>
+    <img id="bulb" src="https://i.postimg.cc/KjK1wL3c/bulb-off.png" id="bulb" width="200">
+    <button  onclick="turnoff()">Turn Off Light</button>
+</body>
+</html>
